@@ -1,0 +1,35 @@
+#ancrPane {
+
+    -fx-background-image: url("https://previews.123rf.com/images/alliedcomputergraphics/alliedcomputergraphics1207/alliedcomputergraphics120700102/14353910-silver-carbon-fiber-seamless-texture-tile.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+}
+
+#display {
+
+    -fx-border-radius: 1em;
+    -fx-background-radius: 1em;
+}
+
+#mainGrid {
+
+    -fx-effect: dropshadow(three-pass-box, whitesmoke, 8, 0.4, 0, 0);
+}
+
+#opGrid {
+
+    -fx-effect: dropshadow(three-pass-box, whitesmoke, 8, 0.4, 0, 0);
+}
+
+#resGrid {
+
+    -fx-background-radius: 3em;
+    -fx-border-radius: 3em;
+    -fx-effect: dropshadow(three-pass-box, whitesmoke, 8, 0.4, 0, 0);
+}
+
+.button {
+    -fx-font-size: 24;
+    -fx-background-color: #999999;
+}
